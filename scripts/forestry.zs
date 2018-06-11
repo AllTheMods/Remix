@@ -119,6 +119,64 @@ import crafttweaker.oredict.IOreDictEntry;
 		[<gregtech:meta_item_1:12087>, <minecraft:quartz_block:2>, <gregtech:meta_item_1:12087>],
 		[<minecraft:wooden_slab>, <forestry:thermionic_tubes:1>, <minecraft:wooden_slab>]
 		]);
+				
+//===== Forestry Peat Engine ======
+//
+	recipes.remove(<forestry:engine_peat>);
+	recipes.addShaped(<forestry:engine_peat>, [
+		[<gregtech:meta_item_1:13018>, <gregtech:meta_item_1:13018>, <gregtech:meta_item_1:13018>],
+		[<gregtech:meta_item_1:13018>, <gregtech:machine:501>, <gregtech:meta_item_1:13018>],
+		[<gregtech:metal_casing>, <gregtech:meta_item_1:32640>, <gregtech:metal_casing>]
+		]);
+		
+				
+//===== Forestry Biogas Engine ======
+//
+	recipes.remove(<forestry:engine_biogas>);
+	recipes.addShaped(<forestry:engine_biogas>, [
+		[<gregtech:meta_item_1:13095>, <gregtech:meta_item_1:13095>, <gregtech:meta_item_1:13095>],
+		[<gregtech:meta_item_1:13095>, <gregtech:machine:501>, <gregtech:meta_item_1:13095>],
+		[<gregtech:metal_casing>, <gregtech:meta_item_1:32640>, <gregtech:metal_casing>]
+		]);
+		
+				
+//===== Forestry Clockwork Engine ======
+//
+	recipes.remove(<forestry:engine_clockwork>);
+	recipes.addShaped(<forestry:engine_clockwork>, [
+		[<forestry:wood_pile>, <forestry:wood_pile>, <forestry:wood_pile>],
+		[<forestry:wood_pile>, <gregtech:machine:501>, <forestry:wood_pile>],
+		[<gregtech:metal_casing>, <gregtech:meta_item_1:32640>, <gregtech:metal_casing>]
+		]);
+		
+						
+//===== Forestry Electrical Engine ======
+//
+	recipes.remove(<forestry:engine_electrical>);
+	recipes.addShaped(<forestry:engine_electrical>, [
+		[<gregtech:meta_item_1:13071>, <gregtech:meta_item_1:13071>, <gregtech:meta_item_1:13071>],
+		[<gregtech:meta_item_1:13071>, <gregtech:machine:501>, <gregtech:meta_item_1:13071>],
+		[<gregtech:metal_casing>, <gregtech:meta_item_1:32640>, <gregtech:metal_casing>]
+		]);
+		
+						
+//===== Forestry Bio Generator ======
+//
+	recipes.remove(<forestry:engine_generator>);
+	recipes.addShaped(<forestry:engine_generator>, [
+		[<gregtech:meta_item_1:13026>, <gregtech:meta_item_1:13026>, <gregtech:meta_item_1:13026>],
+		[<gregtech:meta_item_1:13026>, <gregtech:machine:501>, <gregtech:meta_item_1:13026>],
+		[<gregtech:meta_item_1:13026>, <gregtech:meta_item_1:13026>, <gregtech:meta_item_1:13026>]
+		]);
+								
+//===== Forestry Thermiotic Fabricator ======
+//
+	recipes.remove(<forestry:fabricator>);
+	recipes.addShaped(<forestry:fabricator>, [
+		[<gregtech:meta_item_1:13026>, <gregtech:meta_item_1:13026>, <gregtech:meta_item_1:13026>],
+		[<gregtech:meta_item_1:13026>, <gregtech:machine:501>, <gregtech:meta_item_1:13026>],
+		[<gregtech:meta_item_1:13026>, <minecraft:chest>, <gregtech:meta_item_1:13026>]
+		]);
 		
 
 		
